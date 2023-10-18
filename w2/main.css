@@ -4,17 +4,17 @@ html {
 
 body {
     background-color:#010d01;
-    color: whitesmoke;
+    color: #0000ff;
 }
 
 a{
-    color: aliceblue;
+    color: #FFFF00;
 }
 
 a:visited {
-    color: lightgray;
+    color: #0000ff;
 }
 
 a:hover, a:active {
-    color: #eee;
+    color: #FFFF00;
 }
