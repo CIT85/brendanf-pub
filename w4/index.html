@@ -13,7 +13,8 @@
 
     <hr>
 
-    <nav>
+    <nav aria-label="main-navigation" id="main-navigation">
+        <h3>Navigation:</h3>
         <ul>
             <li>
                 <a href="goals.html">Goals</a>
@@ -21,12 +22,20 @@
             <li>
                 <a href="learn-more.html">Learn-more</a>
             </li>
+            <li>
+                <a href="color-palette.html">Color Palette</a>
+            </li>
         </ul>
     </nav>
     
     <hr>
     
-    <nav>
+    <nav aria-label="page-navigation" id="page-navigation">
+        <h3>Page Navigation:</h3>
+        <figure>
+            <img src="img/outline_img_home.PNG" alt="outline" title="outline" width="600" height="228" loading="lazy">
+            <figcaption>My Home Webpage Outline</figcaption>
+        </figure>
         <ul>
           <li>
             <a href="#html">Why learning HTML is a good idea</a>
@@ -34,23 +43,25 @@
           <li>
             <a href="#websites">Websites I visit often</a>
           </li>
+          <li>
+            <a href="#schedule">My Daily Schedule</a>
+          </li>
         </ul>
       </nav>
 
     <hr>
 
-    <section id="html">
+    <article id="html">
         <h2>Why learning HTML is a good idea:</h2>
         <figure>
         <img src="img/html_logo_300x300.png" alt="HTML5" title="Learning HTML5" width="300" height="300">
         <figcaption>HTML5</figcaption>
         </figure>
         <p>I believe that learning HTML is a good idea because you can build your own websites. You have to know the basics in HTML to create a functioning website. HTML is the foundation for a functioning website.</p>
-    </section>
+    </article>
 
-    <hr>
 
-    <section id="websites">
+    <article id="websites">
         <h2>Websites I visit often:</h2>
         <figure>  
         <img src="img/LegendofZelda_Link_530x530.png" alt="Legend of Zelda_Link" title="Go On and Click a Link" width="400" height="400">
@@ -67,8 +78,72 @@
                 <p><a href="https://www.amazon.com/" target="_blank">Amazon</a></p>
             </li>
         </ul>
-    </section>
+    </article>
 
+
+    <article id="schedule">
+        <h2>My Daily Schedule:</h2>
+            <table>
+            <caption>My Daily Schedule</caption>
+            <thead>
+              <tr>
+                <th>&nbsp;</th>
+                <th scope="col">Time</th>
+                <th scope="col">Activity</th>
+              </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <th scope="row">Morning</th>
+              <td>
+                <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+              </td>
+              <td>Work</td>
+            </tr>
+            <tr>
+              <th scope="row">Break</th>
+              <td>
+                <time datetime="11:00">11am</time>-<time datetime="12:00">12am</time>
+              </td>
+              <td>Youtube and Amazon</td>
+            </tr>
+            <tr>
+              <th scope="row">Afternoon</th>
+              <td>
+                <time datetime="12:00">12am</time>-<time datetime="17:00">5pm</time>
+              </td>
+              <td>More Work</td>
+            </tr>
+            <tr>
+              <th scope="row">Evening</th>
+              <td>
+                <time datetime="17:00">5pm</time>-<time datetime="21:00">9pm</time>
+              </td>
+              <td>School and Code</td>
+            </tr>
+            <tr>
+              <th scope="row">Night</th>
+              <td>
+                <time datetime="21:00">9pm</time>-<time datetime="24:00">12am</time>
+             </td>
+              <td>Steam</td>
+            </tr>
+            <tr>
+                <th scope="row">Late Night</th>
+                <td>
+                    <time datetime="24:00">12am</time>-<time datetime="08:00">8am</time>
+                </td>
+                <td>Sleep</td>
+              </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">And that's what I do every day with free time on the weekend!</td>
+            </tr>
+          </tfoot>
+          </table>
+    </article>
+    <br>
     <hr>
      &lt;&lt;&lt; &copy; Brendan Fahey &gt;&gt;&gt;
     
