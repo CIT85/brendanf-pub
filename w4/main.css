@@ -1,0 +1,20 @@
+html {
+    font-size: 22px
+}
+
+body {
+    background-color:#010d01;
+    color: #0000ff;
+}
+
+a{
+    color: #FFFF00;
+}
+
+a:visited {
+    color: #0000ff;
+}
+
+a:hover, a:active {
+    color: #FFFF00;
+}
