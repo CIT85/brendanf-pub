@@ -1,13 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-size: 22px
 }
 
 body {
-    background-color:#010d01;
-    color: #0000ff;
+    padding: 3%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    background-color:#2F2F2F;
+    color: #1BE7FF;
+}
+
+footer {
+    display: flex;
+    text-align: right;
+}
+
+ p { 
+    text-decoration: none;
+    text-transform: none;
+    text-align: left;
+    line-height: 1.5;
+    word-spacing: 0.1em;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+img {
+    display:block;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: auto;
+    background-color: #000000;
+}
+
+table, tr, th, td {
+    border: 1px solid#eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    color: #FFD400;
+    align-self: center;
+    background-color: #3C1642;
+}
+
+input, button {
+    font:inherit;
 }
 
 a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #0000ff;
     color: #FFFF00;
 }
 
@@ -15,13 +67,76 @@ a:visited {
     color: #0000ff;
 }
 
-a:hover, a:active {
+a:hover {
     color: #FFFF00;
 }
 
-table, tr, th, td, caption {
-    border: 1px solid#eee;
-    font-family: 'Courier New', Courier, monospace;
-    border-collapse: collapse;
-    padding: 0.5rem;
+a:active {
+    color: #FFFF00;
+}
+
+.color-palette {
+    display: flex;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    color: white;
+    border-spacing: 1rem;
+}
+
+.electricblue {
+    background-color: #1BE7FF;
+    width: 300px;
+    height: 160px;
+    border: 2px;
+    border-radius: 15%;
+    outline: 2px solid #ffffff;
+    border-spacing: 1em;
+}
+
+.imperialred {
+    background-color: #FF3E41;
+    width: 300px;
+    height: 160px;
+    border: 2px;
+    border-radius: 15%;
+    outline: 2px solid #ffffff;
+    border-spacing: 1em;
+}
+
+.gold {
+    background-color: #FFD400;
+    width: 300px;
+    height: 160px;
+    border: 2px;
+    border-radius: 15%;
+    outline: 2px solid #ffffff;
+    border-spacing: 1em;
+}
+
+.jet {
+    background-color: #2F2F2F;
+    width: 300px;
+    height: 160px;
+    border: 2px;
+    border-radius: 15%;
+    outline: 2px solid #ffffff;
+    border-spacing: 1em;
+}
+
+.russianviolet {
+    background-color: #3C1642;
+    width: 300px;
+    height: 160px;
+    border: 2px;
+    border-radius: 15%;
+    outline: 2px solid #ffffff;
+    border-spacing: 1em;
+}
+
+.container {
+    border: 2px solid #FF3E41;
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
 }
