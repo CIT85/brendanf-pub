@@ -149,6 +149,10 @@ div.float {
     padding: 0 2.5% 0 2.5%;
 }
 
+.invisible {
+    display: none;
+}
+
 /* Navigation styles */
 a:any-link {
     text-decoration: underline;
@@ -216,10 +220,6 @@ aside.menu2 {
     font-size: 1.5em;
     margin: 0 0.5em;
     text-align: justify;
-}
-
-.invisible {
-    display: none;
 }
 
 /* Color Palette Styles */
